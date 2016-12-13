@@ -10,8 +10,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
-    <link href="/resources/css/signin.css" rel="stylesheet">
-
+    <link href="/resources/css/home.css" rel="stylesheet">
+<br>
+    <br>
+    <br>
     <title>Mon profil</title>
 
   </head>
@@ -21,10 +23,18 @@
     <div class="container">
       <h2>Mon profil</h2>
       <ul>
+
+        <br>
         <li>Nom: ${myInfos.name}</li>
+
+        <br>
         <li>Prénom: ${myInfos.surname}</li>
+
+        <br>
         <li>Email: ${myInfos.email}</li>
       </ul>
+
+      <br>
       <a href="/">
         <button class="btn btn-success" type="submit"> Retour a la page d'accueil </button>
       </a>

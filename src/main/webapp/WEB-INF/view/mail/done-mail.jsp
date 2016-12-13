@@ -22,9 +22,11 @@
 </head>
 <body>
 <div class="container">
-
+    <br> <br>
+    <br> <br>
+    <br>
     <h3>Merci !
-        <br> <br>
+        <br>
         <br>Votre message a bien été envoyé.
         <br> <br>
         <br> Nous y répondrons dès que possible</h3>
@@ -34,7 +36,7 @@
     <br>
 
     <a href="/">
-        <button class="btn btn-success" type="submit"> Retour a la page d'accueil</button>
+        <button class="btn btn-lg btn-success" type="submit"> Retour a la page d'accueil </button>
     </a>
 
 </div> <!-- /container -->

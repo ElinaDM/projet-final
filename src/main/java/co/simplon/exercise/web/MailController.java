@@ -3,7 +3,7 @@ package co.simplon.exercise.web;
 import co.simplon.exercise.core.model.Mail;
 import co.simplon.exercise.core.service.MailService;
 import co.simplon.exercise.core.service.UserService;
-import co.simplon.exercise.core.service.EmailAPI;
+import co.simplon.exercise.core.service.mailing.EmailAPI;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -22,7 +22,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/mail")
-public class MailContoroller {
+public class MailController {
 
     @Autowired
     private MailService mailService;
@@ -57,7 +57,7 @@ public class MailContoroller {
         String actualFromAdress = SecurityContextHolder.getContext().getAuthentication().getName();
         String toAdress = "simplon.company@gmail.com";
         Date createdAt = new Date();
-        String emailContent = "Bonjour,\r\n \r\n Vous avez reçu un message, de la part de " + actualFromAdress + ".r\n" +
+        String emailContent = "Bonjour,\r\n \r\n Vous avez reçu un message, de la part de " + actualFromAdress + ".\r\n" +
                 " \r\n" + "  \r\n" + msgBody + ".";
         Mail mail = new Mail(actualFromAdress, createdAt, 0, null, subject, msgBody);
         mailService.addOrUpdate(mail);

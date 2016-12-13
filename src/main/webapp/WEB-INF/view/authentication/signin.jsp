@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="security" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,16 +28,16 @@
         <h2 class="form-signin-heading">Connexion</h2>
 
         <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Adresse email" required autofocus>
         <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Mot de passe" required>
         <input type="hidden" name="${_csrf.parameterName}"  value="${_csrf.token}" />
         <div class="checkbox">
           <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label><br>
-           <a href="/sendMPmailForm" >Forgotten password?</a>
-          
+            <input type="checkbox" value="remember-me"> Rester connecté
+            &nbsp;&nbsp;  &nbsp;&nbsp;
+            <a href="/sendMPmailForm">Mot de passe oublié ?</a>
+
             </p>
         </div>
         <button class="btn btn-lg btn-success btn-block" type="submit">Sign in</button>

@@ -23,14 +23,16 @@
 <div class="container">
 
     <form class="form-signin" action="/mail/sendAndSaveMail/">
-        <h3>Nous contacter </h3>
-
-        <p> Une question, une suggestion, un doute ? C’est par ici !</p>
+        <h2>Nous contacter </h2>
         <br>
-        <label class="col-md-4 control-label" for="subject">Sujet* </label>
+        <h4> Une question, une suggestion,  <br> un doute ? </h4>
+        <br>
+        <h4>  C’est par ici !</h4>
+        <br>
+        <label class="control-label" for="subject"> Sujet* </label>
         <input id="subject" name="subject" placeholder="" class="form-control input-md" type="text">
         <br>
-        <label class="col-md-4 control-label" for="msgBody"> Votre message* </label>
+        <label class="control-label" for="msgBody"> Votre message* </label>
         <textarea class="form-control" id="msgBody" name="msgBody"></textarea>
 
         <button class="btn btn-lg btn-success btn-block" type="submit">Envoyer</button>

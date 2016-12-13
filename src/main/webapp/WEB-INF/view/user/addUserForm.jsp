@@ -26,12 +26,12 @@
                <fieldset>
 
                <!-- Form Name -->
-               <legend>Ajouter un compte utilisateur</legend>
+               <legend>Créer un compte</legend>
 
                <!-- Text input-->
                <div class="form-group">
                  <div class="col-md-12">
-                 <input id="surname" name="surname" type="text" placeholder="Entrer votre prénom" class="form-control input-md" required="">
+                 <input id="surname" name="surname" type="text" placeholder="Prénom" class="form-control input-md" required="">
 
                  </div>
                </div>
@@ -39,7 +39,7 @@
                <!-- Text input-->
                <div class="form-group">
                 <div class="col-md-12">
-                 <input id="name" name="name" type="text" placeholder="Entrer un nom" class="form-control input-md" required="">
+                 <input id="name" name="name" type="text" placeholder="Nom" class="form-control input-md" required="">
 
                  </div>
                </div>
@@ -47,14 +47,14 @@
                <!-- Text input-->
                <div class="form-group">
                <div class="col-md-12">
-                 <input id="email" name="email" type="text" placeholder="Entrer votre email" class="form-control input-md" required="">
+                 <input id="email" name="email" type="text" placeholder="Adresse email" class="form-control input-md" required="">
                  </div>
                </div>
 
                <!-- Password input-->
                <div class="form-group">
                 <div class="col-md-12">
-                   <input id="password" name="password" type="password" placeholder="Entrer un mot de passe" class="form-control input-md" required="">
+                   <input id="password" name="password" type="password" placeholder="Mot de passe" class="form-control input-md" required="">
                  </div>
                </div>
 
