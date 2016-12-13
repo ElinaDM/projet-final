@@ -1,7 +1,6 @@
 package co.simplon.exercise.core.model;
 
-import co.simplon.exercise.core.service.EmailAPI;
-import org.apache.commons.lang3.RandomUtils;
+import co.simplon.exercise.core.service.mailing.EmailAPI;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
