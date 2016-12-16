@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link href="<c:url value="/resources/img/favicon.ico" />" rel="icon">
 
     <title>Home Page</title>
 
@@ -37,7 +38,7 @@
                                 <li>
                                     <div class="dropdown">
                                         <button class="btn btn-lg btn-success gestion" type="button"
-                                                data-toggle="dropdown">Gestion
+                                                data-toggle="dropdown">Administration
                                             <span class="caret"></span></button>
                                         <ul class="dropdown-menu">
                                             <li><a href="/reservations" class="btn btn-lg ">Réservations</a></li>
@@ -76,33 +77,29 @@
                 </div>
             </div>
 
-            <div class="inner cover">
-                <h1 class="cover-heading"><c:out value="${message }"></c:out></h1>
-                <p class="lead">Bienvenue dans l'outil de gestion des ressources de Simplon</p>
-                <p class="lead">
+          <div class="inner cover">
+            <h1 class="cover-heading"><c:out value="${message }"></c:out></h1>
+            <p class="lead">Bienvenue dans l'outil de gestion des ressources de Simplon</p>
+            <p class="lead">
+	         <a href="/reservations/resources/searchform" class="btn btn-lg btn-default">Réserver une ressource</a>
+            </p>
+          </div>
 
-                    <a href="/reservations/formAdd" class="btn btn-lg btn-default">Room booking</a>
+          <div class="mastfoot">
+            <div class="inner">
 
-                    <a href="/reservations/formAdd" class="btn btn-lg btn-default">Laptop booking</a>
-                </p>
             </div>
-
-            <div class="mastfoot">
-                <div class="inner">
-
-                </div>
-            </div>
-
+          </div>
         </div>
+
+      </div>
 
     </div>
 
-</div>
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="webjars/jquery/3.1.1/jquery.min.js"></script>
-<script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="webjars/jquery/3.1.1/jquery.min.js"></script>
+    <script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>

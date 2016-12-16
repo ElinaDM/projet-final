@@ -26,7 +26,7 @@
 
 	<form class="form-signin" action="/sendMP">
 	<h3>Réinitialisez votre mot de passe </h3>
-	  <label for="inputEmail" class="sr-only">Address email</label>
+	  <label for="inputEmail" class="sr-only">Addresse email</label>
         <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
          <!--  input type="text"  name="email" placeholder="Entrer votre email"-->
        <br>

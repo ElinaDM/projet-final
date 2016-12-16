@@ -33,12 +33,9 @@
         <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Mot de passe" required>
         <input type="hidden" name="${_csrf.parameterName}"  value="${_csrf.token}" />
         <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Rester connecté
-            &nbsp;&nbsp;  &nbsp;&nbsp;
-            <a href="/sendMPmailForm">Mot de passe oublié ?</a>
 
-            </p>
+           <a href="/sendMPmailForm" >Mot de passe oublié ?</a>
+
         </div>
         <button class="btn btn-lg btn-success btn-block" type="submit">Sign in</button>
       </form>

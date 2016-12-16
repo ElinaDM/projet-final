@@ -5,12 +5,8 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by millet on 07/12/16.
- */
-@Service ("Email")
+@Service("Email")
 public class EmailAPI {
-
     @Autowired
     private MailSender mail; // MailSender interface defines a strategy
     // for sending simple mails
